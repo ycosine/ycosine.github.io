@@ -34,6 +34,8 @@ import styles from './styles.module.css'
 const Code = dynamic(() =>
   import('react-notion-x/build/third-party/code').then(async (m) => {
     // add / remove any prism syntaxes here
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     await Promise.all([
       import('prismjs/components/prism-markup-templating.js'),
       import('prismjs/components/prism-markup.js'),
