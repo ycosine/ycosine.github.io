@@ -1,10 +1,9 @@
 module.exports = {
   apps: [
     {
-      name: 'cosine_blog_3',
+      name: 'cosine_blog',
       script: 'pnpm',
-      args: 'run start',
-      interpreter: '/bin/bash',
+      args: 'start',
       env: {
         NODE_ENV: 'development'
       }
