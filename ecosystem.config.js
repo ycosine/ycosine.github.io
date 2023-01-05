@@ -1,8 +1,8 @@
 module.exports = {
   apps: [
     {
-      name: 'cosine_blog',
-      script: 'yarn',
+      name: 'cosine_blog_2',
+      script: 'pnpm',
       args: 'start',
       interpreter: '/bin/bash',
       env: {
